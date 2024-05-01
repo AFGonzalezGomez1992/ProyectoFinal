@@ -1,0 +1,234 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #007bff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .zero{
+    display: flex;
+    align-items: center;
+  }
+
+  li{
+    cursor: pointer;
+    padding: 1.5vw;
+    transition: all 0.3s ease 0s;
+  }
+
+  li:hover{
+    background-color: #008849;
+  }
+
+  .first{
+    position: relative;
+  }
+
+  .second{
+    display:none;
+    position: absolute;
+    margin-top: 1.5vw;;
+  }
+
+  .second>li{
+    width: auto;
+    transform: translateX(-30px);
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    background-color: #24252a;
+  }
+
+  .second>li:hover{
+    background-color: #008849;
+  }
+  
+  .first:hover>.second{
+    display: block;
+  }
+
+  
+
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de los cursos */
+  .cursos {
+    padding: 40px 0;
+  }
+  
+  .curso {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .curso h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .curso p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /*cusos*/
+  .cursos {
+    padding: 40px 0;
+}
+
+.curso {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.curso h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.curso p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/*Inscripcion*/
+.inscripcion {
+    padding: 40px 0;
+}
+
+.inscripcion h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

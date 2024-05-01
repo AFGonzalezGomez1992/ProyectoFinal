@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1>Universidad Online</h1>
+          <nav>
+            <ul class="zero">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="first"><a href="Cursos.html">Cursos</a>
+                    <ul class="second">
+                        <li>DAM</li>
+                        <li>DAW</li>
+                        <li>ASIR</li>
+                    </ul>
+                </li>
+                <li><a href="informacion.html">Solicita Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="inscripcion">
+        <div class="container">
+            <h2>Solicita Información</h2>
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="campo">
+                    <label for="curso">Curso de interés:</label>
+                    <select id="curso" name="curso" required>
+                        <option value="" disabled selected>Seleccione un curso</option>
+                        <option value="Desarrollo Web">Desarrollo Web</option>
+                        <option value="Ciencia de Datos">Ciencia de Datos</option>
+                        <option value="Marketing Digital">Marketing Digital</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="nivel">Nivel de experiencia:</label>
+                    <select id="nivel" name="nivel" required>
+                        <option value="" disabled selected>Seleccione su nivel</option>
+                        <option value="Principiante">Principiante</option>
+                        <option value="Intermedio">Intermedio</option>
+                        <option value="Avanzado">Avanzado</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="motivacion">¿Por qué te interesa este curso?</label>
+                    <textarea id="motivacion" name="motivacion" rows="4"></textarea>
+                </div>
+                <div class="campo">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                </div>
+                <div class="campo">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+          <p>&copy; 2024 Universidad Online. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    
+</body>
+</html>
